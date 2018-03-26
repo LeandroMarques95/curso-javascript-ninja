@@ -25,4 +25,11 @@
   input;
   - Ao pressionar o botão "CE", o input deve ficar zerado.
   */
+
+  function sum() {
+    return Array.prototype.reduce.call(arguments, function (accumulated, item) {
+      return accumulated + item;
+    });
+  }
+  console.log(sum(1, 20, 30));
 })();
