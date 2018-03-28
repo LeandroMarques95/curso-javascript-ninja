@@ -117,9 +117,4 @@
   // });
   // console.log(dataJs);
 
-  for (var i = 10; i > 0; i--) {
-    if(i == 5) {
-      console.log('sou 5');
-      };
-  }
 })();
